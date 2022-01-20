@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather-Talal Maghrabi</title>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<bpdy>
+    <div id="logo">
+        <img src="Weather.png" style="width:5%">
+        <span style="font-size:2vw"><b>Tody's Weather</b> Time</span>
+    </div>
+
+
+
+    <!--digital clock start-->
+    <div class="datetime">
+        <div class="date">
+            <span id="dayname">Tuesday</span>,
+            <span id="month">Dec</span>
+            <span id="daynum">00</span>,
+            <span id="year">2022</span>
+        </div>
+        <div class="time">
+            <span id="hour">11</span>:
+            <span id="minutes">59</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
+    <!--digital clock end-->
+
+
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="weather-icon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <div class="temperature-value">
+                <p>- °<span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    </body>
+
+</html>
